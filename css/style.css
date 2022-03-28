@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: radial-gradient(circle,rgba(63,94,251,1)10%,rgba(252,70,107,1)100%);
+}
+    .header .row{
+        margin-top: 70px;
+    }
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+    .col-2 img{
+        max-width: 100%;
+        padding: 50px 0;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+/* css button */
+.btn{
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border-radius: 20px;
+    /* transition: background 0.5s; */
+}
+    .btn:hover{
+        background: #ffe603;
+    }
+
+p{
+    color: white;
+}
+
+/* loại sp css */
+.small-container{
+    min-width: 1080px;
+    margin: auto;
+    /* padding-left: 25px;
+    padding-right: 25px; nếu dưới sai thì lấy này*/
+    padding: 0 25px;
+}
+
+.categories{
+    margin:70px 0;
+}
+.col-3{
+    min-width: 250px;
+    flex-basis: 30%;
+    margin-bottom: 30px;
+}
+    .col-3 img{
+        width: 100%;
+    }
+
+/* css SP top seller */
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: rgb(71, 187, 42);
+}
+    .title::after{
+        content: "";
+        background: #f5552e;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.6s;
+}
+    .col-4 img{
+        width: 100%;
+    }
+    .col-4:hover{
+        transform: translateY(-50px);
+    }
+
+h4{
+    color: rgb(1, 148, 1);
+    font-size: normal;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+
+/* QC SP CSS */
+
+/* footer */
+
+
+    
